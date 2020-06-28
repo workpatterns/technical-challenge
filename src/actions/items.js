@@ -13,20 +13,10 @@ export const changeItemHighPriority = (itemToChange, value) => ({
   }
 })
 
-export const moveItem = (itemToMove, direction) => ({
-  type: 'MOVE_ITEM',
-  payload: {
-    itemToMove,
-    direction
-  }
-})
-
 export const addItem = text => ({
   type: 'ADD_ITEM',
   payload: {
-    text: uuid().slice(0, 4),
     uuid: uuid(),
-    highPriority: false,
-    position: null
+    highPriority: false
   }
 })
