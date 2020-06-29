@@ -1,16 +1,25 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
-import { BsCheck } from 'react-icons/bs';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from "react";
+import Button from "react-bootstrap/Button";
+import { BsCheck } from "react-icons/bs";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-const Item = ({ item, onCompleteClick }) => (
-  <Row className="mt-3">
+const Item = ({ item, onCompleteClick, onItemTextChange }) => (
+  <Row className="mt-3 bg-white">
     <Col>
-      <input type="text" class="form-control" placeholder="Enter text here"/>
+      <input
+        type="text"
+        className="form-control"
+        placeholder="Enter text here"
+        value={item.text}
+        onChange={(e) => onItemTextChange(item.uuid, e.target.value )}
+      />
     </Col>
-    <Col>
-      <Button onClick={() => onCompleteClick(item, !item.complete)} className={item.complete ? "btn-success" : "btn-secondary"}>
+    <Col md="auto">
+      <Button
+        onClick={() => onCompleteClick(item.uuid, !item.complete)}
+        variant={item.complete ? "success" : "secondary"}
+      >
         <BsCheck />
       </Button>
     </Col>

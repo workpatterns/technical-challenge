@@ -5,6 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./purple-background.png');
+  background-size: cover;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #0238BB;
+  border-color: #0238BB;
+}
+
+.App {
+  max-width: 600px;
+  margin: 5rem auto 0;
+}
+
+.Logo {
+  width: 200px;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
 }
 
 code {
