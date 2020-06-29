@@ -5,7 +5,7 @@ In this challenge you will add new functionality to the codebase in this reposit
 ## Problem Statement
 
 A key element of WorkPatterns is the discussion topic, which represents something that a user wants to discuss with their teammates. Discussion topics can be created, marked complete, deleted and have subtopics added to them, as shown in the video below:
-![Alt Text](https://media.giphy.com/media/l51obwRwoN1rroqzoK/giphy.gif)
+![Alt Text](https://i.imgur.com/e0SFSs3.gif)
 
 
 In this challenge, you will take a very simple application that can only create discussion topics and mark them as complete, and add three new pieces of functionality:
