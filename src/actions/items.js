@@ -5,18 +5,19 @@ const uuid = () => {
   });
 }
 
-export const changeItemCompletion = (itemToChange, value) => ({
-  type: 'CHANGE_ITEM_COMPLETION',
-  payload: {
-    itemToChange,
-    value
-  }
-})
-
-export const addItem = text => ({
+export const addItem = () => ({
   type: 'ADD_ITEM',
   payload: {
     uuid: uuid(),
-    complete: false
+    complete: false,
+    text: "",
   }
 })
+
+export const updateItem = (uuid, updatedItem) => ({
+  type: 'UPDATE_ITEM',
+  payload: {
+    uuid,
+    updatedItem,
+  }
+});
