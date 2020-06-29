@@ -3,7 +3,7 @@ import Item from './Item.jsx';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const ItemList = ({ items, onHighPriorityClick }) => {
+const ItemList = ({ items, onCompleteClick }) => {
   return (<>
     {items.length === 0 && (
       <Row className="mt-3">
@@ -13,7 +13,7 @@ const ItemList = ({ items, onHighPriorityClick }) => {
       </Row>
     )}
     {items.map((item) => (
-      <Item key={item.uuid} item={item} onHighPriorityClick={onHighPriorityClick}/>
+      <Item key={item.uuid} item={item} onCompleteClick={onCompleteClick}/>
     ))}
   </>);
 };

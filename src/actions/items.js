@@ -5,8 +5,8 @@ const uuid = () => {
   });
 }
 
-export const changeItemHighPriority = (itemToChange, value) => ({
-  type: 'CHANGE_ITEM_PRIORITY',
+export const changeItemCompletion = (itemToChange, value) => ({
+  type: 'CHANGE_ITEM_COMPLETION',
   payload: {
     itemToChange,
     value
@@ -17,6 +17,6 @@ export const addItem = text => ({
   type: 'ADD_ITEM',
   payload: {
     uuid: uuid(),
-    highPriority: false
+    complete: false
   }
 })
