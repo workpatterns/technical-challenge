@@ -19,6 +19,7 @@ const Item = ({ item, onCompleteClick, onItemTextChange }) => (
       <Button
         onClick={() => onCompleteClick(item.uuid, !item.complete)}
         variant={item.complete ? "success" : "secondary"}
+        data-testid="complete-button"
       >
         <BsCheck />
       </Button>
