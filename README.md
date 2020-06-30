@@ -1,12 +1,13 @@
 ## WorkPatterns Technical Challenge
 
-In this challenge you will add new functionality to the codebase in this repository. Please fork the repository with your solution to the challenge and email us a link to your fork. There is no strict deadline for this challenge, but it should take no more than 4 hours to complete.
+Thanks for doing the WorkPatterns Challenge! The challenge consists of a simple app to which you'll add new functionality. There is no strict deadline for this challenge. The goal of this challenge is to assess your code quality, attention to detail & overall problem-solving ability.
+
+Please fork the repository with your solution to the challenge and email dmitri@workpatterns.com a link to your fork. 
 
 ## Problem Statement
 
 A key element of WorkPatterns is the discussion topic, which represents something that a user wants to discuss with their teammates. Discussion topics can be created, marked complete, deleted and have subtopics added to them, as shown in the video below:
 ![Alt Text](https://i.imgur.com/xY0UHVC.gif)
-
 
 In this challenge, you will take a very simple application that can only create discussion topics and mark them as complete, and add three new pieces of functionality:
 
@@ -23,7 +24,6 @@ In this challenge, you will take a very simple application that can only create 
 1. Clone the app
 2. Run `yarn` to install packages
 3. Run `yarn start` and navigate to localhost.
-
 
 ## Available Scripts
 NOTE: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
