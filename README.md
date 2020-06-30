@@ -19,11 +19,15 @@ In this challenge, you will take a very simple application that can only create 
     - If a subtopic is un-completed, then its parent topic is also un-completed.
     - If the parent topic of a subtopic is deleted, then the subtopic is also deleted.
 
+## How to run the app
+1. Clone the app
+2. Run `yarn` to install packages
+3. Run `yarn start` and navigate to localhost.
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 In the project directory, you can run:
 
