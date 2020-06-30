@@ -5,12 +5,12 @@ In this challenge you will add new functionality to the codebase in this reposit
 ## Problem Statement
 
 A key element of WorkPatterns is the discussion topic, which represents something that a user wants to discuss with their teammates. Discussion topics can be created, marked complete, deleted and have subtopics added to them, as shown in the video below:
-![Alt Text](https://i.imgur.com/e0SFSs3.gif)
+![Alt Text](https://i.imgur.com/xY0UHVC.gif)
 
 
 In this challenge, you will take a very simple application that can only create discussion topics and mark them as complete, and add three new pieces of functionality:
 
-1. In the starter code, discussion topics are completed and uncompleted by clicking their checkbox button. A completed discussion topic has a green checkbox. Please add additional functionality so that all completed discussion topics are placed in a separate list below the uncompleted topics. Completed discussion topics should be ordered by when they were completed, with the most recently completed ones at the top. If a completed discussion topic is uncompleted, it should return to its original position in the list.
+1. In the starter code, discussion topics are completed and uncompleted by clicking their checkbox button. A completed discussion topic has a green checkbox. Please add additional functionality so that all completed discussion topics are placed in a separate list from the uncompleted topics. Completed discussion topics should be ordered by when they were completed, with the most recently completed ones at the top. If a completed discussion topic is uncompleted, it should return to its original position in the uncompleted list.
 
 2. Add the ability to delete a discussion topic.
 
