@@ -2,14 +2,14 @@
 
 Thanks for doing the WorkPatterns Challenge! The challenge consists of a simple app to which you'll add new functionality. There is no strict deadline for this challenge. The goal of this challenge is to assess your code quality, attention to detail & overall problem-solving ability.
 
-Please fork the repository with your solution to the challenge and email dmitri@workpatterns.com a link to your fork. 
+Please *clone* the repository with your solution to the challenge and email dmitri@workpatterns.com a link. We do not recommend forking this repo.
 
 ## Problem Statement
 
 A key element of WorkPatterns is the discussion topic, which represents something that a user wants to discuss with their teammates. Discussion topics can be created, marked complete, deleted and have subtopics added to them, as shown in the video below:
 ![Alt Text](https://i.imgur.com/xY0UHVC.gif)
 
-In this challenge, you will take a very simple application that can only create discussion topics and mark them as complete, and add three new pieces of functionality:
+In this challenge, you will take a very simple application that can only create discussion topics and mark them as complete, and add new pieces of functionality:
 
 1. In the starter code, discussion topics are completed and uncompleted by clicking their checkbox button. A completed discussion topic has a green checkbox. Please add additional functionality so that all completed discussion topics are placed in a separate list from the uncompleted topics. Completed discussion topics should be ordered by when they were completed, with the most recently completed ones at the top. If a completed discussion topic is uncompleted, it should return to its original position in the uncompleted list.
 
@@ -19,6 +19,8 @@ In this challenge, you will take a very simple application that can only create 
     - If the parent topic of a sub-topic is completed, then the sub-topic is also completed.
     - If a subtopic is un-completed, then its parent topic is also un-completed.
     - If the parent topic of a subtopic is deleted, then the subtopic is also deleted.
+
+4. The UI is fairly simple. If you see a way to improve the design, feel free to do that. You can include any JS/CSS library.
 
 ## How to run the app
 1. Clone the app
